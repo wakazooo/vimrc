@@ -34,7 +34,7 @@ set cursorline
 
 " encoding
 set encoding=utf-8
-set fenc=iso-2022-jp,euc-jp,sjis,utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 
 " Installation check
 NeoBundleCheck
