@@ -17,6 +17,7 @@ NeoBundle 'Shougo/vimproc.vim', {
       \ }
 NeoBundle 'tomasr/molokai'
 NeoBundle 'w0ng/vim-hybrid'
+NeoBundle 'altercation/vim-colors-solarized'
 
 call neobundle#end()
 
@@ -24,7 +25,8 @@ filetype plugin indent on
 filetype indent on
 
 " color scheme
-colorscheme hybrid 
+set t_Co=256
+colorscheme hybrid
 syntax on
 
 " indent
