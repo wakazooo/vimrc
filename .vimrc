@@ -10,7 +10,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/vimproc.vim', {
       \ 'build' : {
       \   'windows' : 'tools\\update-dll-mingw',
-      \   'unix' : 'make -f make_unix.mak',
+      \   'mac' : 'make -f make_mac.mak',
+      \   'unix' : 'gmake',
+      \   'linux' : 'make'
       \   },
       \ }
 NeoBundle 'tomasr/molokai'
